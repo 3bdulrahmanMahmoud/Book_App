@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:bookly_app/core/utlis/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -8,20 +10,22 @@ class BookView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 10.0, bottom: 10),
+      padding: const EdgeInsets.only(
+        right: 10.0,
+      ),
       child: Stack(
         children: [
           SizedBox(
             width: 165,
             height: 225,
             child: Image.asset(
-              Assets.assetsImagesBook2,
+              Assets.book_Hightligh,
               fit: BoxFit.fill,
             ),
           ),
           Positioned(
-            bottom: 5,
-            right: 5,
+            bottom: 40,
+            right: 30,
             child: Container(
                 width: 30,
                 height: 30,

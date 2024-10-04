@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/core/utlis/app_Style_strings.dart';
 import 'package:bookly_app/features/home/presention/widgets/Book_View_section2.dart';
 import 'package:bookly_app/features/home/presention/widgets/bookView.dart';
@@ -21,7 +20,7 @@ class BodySection extends StatelessWidget {
         const SizedBox(
           height: 30,
         ),
-        Text(
+        const Text(
           "Best sellers",
           style: AppStyleStrings.ragurl20,
         ),

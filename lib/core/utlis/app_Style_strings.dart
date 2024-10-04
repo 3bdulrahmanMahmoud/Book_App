@@ -3,14 +3,7 @@
 import 'package:flutter/material.dart';
 
 abstract class AppStyleStrings {
-  static final ragurl20 =   TextStyle(
-    fontSize: 20
-  );
-   static final ragurl14 =  TextStyle(
-    fontSize: 14,
-    fontWeight: FontWeight.w400
-  );
-   static final ragurl25 = TextStyle(
-    fontSize: 25
-  );
+  static const ragurl20 = TextStyle(fontSize: 20);
+  static const ragurl14 = TextStyle(fontSize: 14, fontWeight: FontWeight.w400);
+  static const ragurl25 = TextStyle(fontSize: 22);
 }
