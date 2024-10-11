@@ -1,4 +1,3 @@
-
 import 'package:bookly_app/core/utlis/app_Style_strings.dart';
 import 'package:flutter/material.dart';
 

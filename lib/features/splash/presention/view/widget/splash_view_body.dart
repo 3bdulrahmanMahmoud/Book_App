@@ -57,8 +57,6 @@ class _SplashViewBodyState extends State<SplashViewBody>
     });
   }
 
-
-
   void inintSlidingAnimation() {
     animationController =
         AnimationController(vsync: this, duration: const Duration(seconds: 1));

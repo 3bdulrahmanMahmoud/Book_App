@@ -5,6 +5,7 @@ void CustomNavigate(context, String path) {
     path,
   );
 }
+
 void customReplacementNavigate(context, String path) {
   GoRouter.of(context).pushReplacement(path);
 }

@@ -6,7 +6,4 @@ abstract class AppStrings {
   static String kHomeView = '/HomeView';
   static String kBokkdetaols = '/BookDetails';
   static String kSearchView = '/Searchview';
-
-
-
 }

@@ -1,18 +1,19 @@
-
-  import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 TextField customTextField() {
-    return TextField(
-        decoration: InputDecoration(
-          border: customOutlineBorder(),
-          focusedBorder: customOutlineBorder(),
-        ),
-      );
-  }
+  return TextField(
+    decoration: InputDecoration(
+      hintText: "Search",
+      suffixIcon: const Icon(Icons.search),
+      enabledBorder: customOutlineBorder(),
+      border: customOutlineBorder(),
+      focusedBorder: customOutlineBorder(),
+    ),
+  );
+}
 
-  OutlineInputBorder customOutlineBorder() {
-    return OutlineInputBorder(
-        borderSide: BorderSide(color: Colors.grey),
-        borderRadius: BorderRadius.circular(10));
-  }
-
+OutlineInputBorder customOutlineBorder() {
+  return OutlineInputBorder(
+      borderSide: const BorderSide(color: Colors.white),
+      borderRadius: BorderRadius.circular(10));
+}

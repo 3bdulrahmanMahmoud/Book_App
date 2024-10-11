@@ -18,7 +18,6 @@ class BookViewSection2 extends StatelessWidget {
       onTap: () {
         CustomNavigate(context, AppStrings.kBokkdetaols);
       },
-    
       child: Row(
         children: [
           Image.asset(Assets.assetsImagesBook),
